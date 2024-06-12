@@ -18,7 +18,7 @@ Este repositorio contiene el código de Arduino para la integración y uso de lo
 
 ### DFR0034
 - **Descripción**: Sensor de sonido.
-- **Librería Utilizada**: [DFRobot_DFR0034](https://github.com/DFRobot/DFRobot_DFR0034) (suponiendo que exista una librería específica)
+- **Librería Utilizada**: Sensor análogo, se lo lee con analogRead de arduino
 
 ### SCD30
 - **Descripción**: Sensor de dióxido de carbono, temperatura y humedad.

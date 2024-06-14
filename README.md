@@ -28,8 +28,18 @@ Este repositorio contiene el código de Arduino para la integración y uso de lo
 
 1. **Instalación de Librerías**: Antes de usar el código, asegúrate de instalar todas las librerías mencionadas a través del Administrador de Librerías de Arduino o utilizando el enlace proporcionado.
 2. **Carga del Código**: Abre el archivo `.ino` correspondiente a tu proyecto en el IDE de Arduino.
-3. **Configuración**: Ajusta los parámetros necesarios en el código para tu configuración de hardware específica.
-   Configura las direcciones: 
+3. **Configuración**: Ajusta los parámetros necesarios en el código para tu configuración de hardware específica.\\
+   Configura las direcciones que escogiste ABP o OTTA :\\
+/* OTAA para*/
+uint8_t devEui[] = { 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX };
+uint8_t appEui[] = { 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX };
+uint8_t appKey[] = { 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX,0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX };
+
+/* ABP para*/
+uint8_t nwkSKey[] = { 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX,0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX };
+uint8_t appSKey[] = {0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX,0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX };
+uint32_t devAddr =  ( uint32_t )0xXXXXXXXX;
+ 
 5. **Conexión de Sensores**: Conecta los sensores a tu placa Arduino según se indica en el código y las especificaciones de cada sensor.
 6. **Compilación y Carga**: Compila y carga el código en tu placa Arduino.
 

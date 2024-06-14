@@ -29,8 +29,9 @@ Este repositorio contiene el código de Arduino para la integración y uso de lo
 1. **Instalación de Librerías**: Antes de usar el código, asegúrate de instalar todas las librerías mencionadas a través del Administrador de Librerías de Arduino o utilizando el enlace proporcionado.
 2. **Carga del Código**: Abre el archivo `.ino` correspondiente a tu proyecto en el IDE de Arduino.
 3. **Configuración**: Ajusta los parámetros necesarios en el código para tu configuración de hardware específica.
-4. **Conexión de Sensores**: Conecta los sensores a tu placa Arduino según se indica en el código y las especificaciones de cada sensor.
-5. **Compilación y Carga**: Compila y carga el código en tu placa Arduino.
+   Configura las direcciones: 
+5. **Conexión de Sensores**: Conecta los sensores a tu placa Arduino según se indica en el código y las especificaciones de cada sensor.
+6. **Compilación y Carga**: Compila y carga el código en tu placa Arduino.
 
 ## Contribuciones
 
@@ -41,6 +42,9 @@ Las contribuciones son bienvenidas. Por favor, haz un fork del repositorio y env
 Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo `LICENSE`.
 
 ---
+## Autores 
+Alexis Vallejo 
+Johan Ordoñez
 
 **Nota**: Asegúrate de revisar la documentación de cada librería para una integración correcta y detalles adicionales sobre el uso de los sensores.
 
